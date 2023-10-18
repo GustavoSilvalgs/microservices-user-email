@@ -1,0 +1,28 @@
+# Arquivos de compilação e construção
+target/
+build/
+
+# Arquivos e diretórios específicos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Outros arquivos específicos da IDE, se aplicável
+# .eclipse/
+# .metadata/
+
+# Outros arquivos específicos do sistema de build, se aplicável
+# .gradle/
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# Logs e arquivos temporários
+*.log
+*.log.*
+*.tmp
+*.swp
+
+# Dependências de build geradas, como arquivos .jar
+lib/
