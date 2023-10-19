@@ -8,3 +8,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  rabbitmq:
+    addresses: amqps://ipipenvx:uY7ow_eqXolY1OIJUKFJ8CK8XfxsB4j_@beaver.rmq.cloudamqp.com/ipipenvx
+    broker:
+      queue:
+        email:
+          name: default.email
